@@ -5,11 +5,12 @@ def my_all?(collection)
     collection.each do |collect|
       new_array << yield(collect)
    #binding.pry
-   end
+   
      if collect < 3
         false
      else
        true
      end
+   end
    return new_array
 end
