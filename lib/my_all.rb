@@ -6,5 +6,6 @@ def my_all?(collection)
     yield(collection[i])
     i = i + 1
   end
+  my_all?(collection) {|i| i < 3}
 end
- my_all?(collection) {|i| i < 3}
+ 
