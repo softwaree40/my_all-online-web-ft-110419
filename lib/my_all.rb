@@ -7,9 +7,9 @@ def my_all?(collection)
    #binding.pry
    end
      if collect < 3
-       return false
+        false
      else
-       return true
+       true
      end
    new_array
 end
