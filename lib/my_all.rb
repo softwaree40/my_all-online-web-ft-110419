@@ -8,8 +8,6 @@ def my_all?(collection)
    
      if collect < 3
         false
-     else
-       true
      end
    end
    return new_array
