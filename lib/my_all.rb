@@ -11,5 +11,5 @@ def my_all?(collection)
      else
        true
      end
-   new_array
+   return new_array
 end
