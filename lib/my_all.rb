@@ -5,8 +5,9 @@ def my_all?(collection)
     collection.each do |collect|
       new_array << yield(collect)
      #binding.pry
+     collect.select {|items| items < 3}
     end
-    collect.select {|items| items < 3}
+    
    new_array
    
 end
